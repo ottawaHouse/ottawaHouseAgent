@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -675,7 +675,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   #best-deal, .fh5co-services {
-    padding: 3em 0;
+    /* padding: 3em 0; */
   }
 }
 #best-deal .item-block, .fh5co-services .item-block {
