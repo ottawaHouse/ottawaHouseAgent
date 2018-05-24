@@ -1,0 +1,10 @@
+var newJson = {
+  "a": [{
+    "name": "avc"
+  }, {
+    "name": "Anna"
+  }, {
+    "name": "Peter"
+  }],
+  "address": "116 THORNBURY CRESCENT, Ottawa K2G 6C2"
+}

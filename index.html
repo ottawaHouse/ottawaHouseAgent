@@ -61,7 +61,7 @@
 								<li><a href="rent.html">Rent</a></li>
 								<li><a href="properties.html">Properties</a></li>
 								<li><a href="properties.html">About</a></li>
-								<li class="call"><a href="tel://123456789"><i class="icon-phone"></i> +1 123 456 789</a></li>
+								<li class="call"><a href="tel://123456789"><i class="icon-phone"></i></a></li>
 								<li class="cta"><a href="contact.html">Contact us</a></li>
 								<li class="cta"><a href="referral.html">Referral</a></li>
 							</ul>
@@ -81,17 +81,16 @@
 								<div class="fh5co-property-brief-inner">
 									<div class="fh5co-box">
 
-										<h3><a href="property-details.html">Villa In Hialeah, Dade County</a></h3>
+										<h3><a href="test.html">Townhouse, Kanata Lakes</a></h3>
 										<div class="price-status">
-											<span class="price">$540,000 <a href="property-details.html" class="tag">For Sale</a></span>
+											<span class="price">$375,000 <a href="property-details.html" class="tag">For Sale</a></span>
 										</div>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dicta magni amet atque doloremque velit unde adipisci omnis hic quaerat.</p>
-
+										<p>From Queensway, North on Kanata Avenue, West onto Goldridge Drive, North onto Windcrest.</p>
 										<p class="fh5co-property-specification">
 											<span><strong>3500</strong> Sq Ft</span> <span><strong>3</strong> Beds</span> <span><strong>3.5</strong> Baths</span> <span><strong>2</strong> Garages</span>
 										</p>
 
-										<p><a href="property-details.html" class="btn btn-primary">Learn more</a></p>
+										<p><a href="test.html" class="btn btn-primary" id="1057553" onClick="reply_click(this.id)">Learn more</a></p>
 
 
 									</div>
@@ -104,15 +103,16 @@
 							<div class="col-md-12 text-center js-fullheight fh5co-property-brief slider-text">
 								<div class="fh5co-property-brief-inner">
 									<div class="fh5co-box">
-										<h3><a href="#">15 Apartments Of Type B</a></h3>
+										<h3><a href="test.html">15 Apartments Of Type B</a></h3>
 										<div class="price-status">
 											<span class="price">$2,200<span class="per">/Month</span> <a href="#" class="tag">For Rent</a></span>
 										</div>
 										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dicta magni amet atque doloremque velit unde adipisci omnis hic quaerat.</p>
+										<a id="1062796" onClick="reply_click(this.id)" href="test.html">1062796</a>
 										<p class="fh5co-property-specification">
 											<span><strong>3500</strong> Sq Ft</span> <span><strong>3</strong> Beds</span> <span><strong>3.5</strong> Baths</span> <span><strong>2</strong> Garages</span>
 										</p>
-										<p><a href="#" class="btn btn-primary">Learn more</a></p>
+										<p><a href="test.html" class="btn btn-primary" id="1062796" onClick="reply_click(this.id)">Learn more</a></p>
 									</div>
 								</div>
 							</div>
@@ -209,7 +209,7 @@
 							</p>
 						</div>
 					</div>
-						<div id="map" class="animate-box" data-animate-effect="fadeIn"></div>
+					<div id="map" class="animate-box" data-animate-effect="fadeIn"></div>
 				</div>
 			</div>
 		</div>
@@ -365,6 +365,15 @@
 
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+	<script>
+	myStorage = window.localStorage;
+	function reply_click(clicked_id)
+{
+	localStorage.setItem('pageNumber', clicked_id);
+}
+
+
+	</script>
 
 </body>
 
