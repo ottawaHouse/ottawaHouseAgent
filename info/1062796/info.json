@@ -1,10 +1,7 @@
 var newJson = {
-  "a": [{
-    "name": "avc"
-  }, {
-    "name": "Anna"
-  }, {
-    "name": "Peter"
-  }],
-  "address": "116 THORNBURY CRESCENT, Ottawa K2G 6C2"
+  "address": "116 THORNBURY CRESCENT, Ottawa K2G 6C2",
+  "ML": "1062796",
+  "maplocation": [46.317018, -75.921626],
+
+
 }

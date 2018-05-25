@@ -5,6 +5,8 @@ console.log(pageId)
   var libs = [
     'info/'+ pageId + '/info.json',
     'js/loadData.js',
+    'js/google_map.js',
+    'https://maps.googleapis.com/maps/api/js?key=AIzaSyBC4UcrDM8F_r4LiDjlTlPDBTHphqLS6jE&callback=myMap'
   ];
 
   var injectLibFromStack = function(){

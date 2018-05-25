@@ -1,11 +1,11 @@
 window.myMap = function() {
   var locations = [
-    ['41 WINDCREST COURT, Ottawa K2T 1B5',45.317018, -75.921626]
+    [newJson.address, newJson.maplocation[0], newJson.maplocation[1]]
   ];
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 13,
-    center: new google.maps.LatLng(45.317018, -75.921626),
+    center: new google.maps.LatLng(newJson.maplocation[0], newJson.maplocation[1]),
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 

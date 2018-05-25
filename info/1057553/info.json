@@ -1,3 +1,14 @@
 var newJson = {
-  "address": "41 WINDCREST COURT, Ottawa K2T 1B5"
+  "address": "41 WINDCREST COURT, Ottawa K2T 1B5",
+  "ML": "1057553",
+  "price": "$375,000",
+  "directions": "From Queensway, North on Kanata Avenue, West onto Goldridge Drive, North onto Windcrest.",
+  "propertyType": "Row Unit",
+  "neighbourhoodName": "Kanata Lakes",
+  "landSize": "20.21' x 112.3'",
+  "parkingType": "1 Garage Attached",
+  "yearBuilt": "1995/Approx",
+  "detailsLink": "https://oreb.mlxmatrix.com/Matrix/Public/EmailReport.aspx?ID=83283606",
+  "description": "Looking for an upgraded townhome with no rear neighbours in Kanata Lakes? Ideally situated on a quiet cul-de-sac providing easy access to the Centrum and the 417. Completely upgraded main-floor with maple hardwood floors and renovated kitchen with new cabinetry, granite countertops, glass backsplash, stainless-steel appliances, ample storage, and west-facing eat-in area. Patio doors lead to two-tiered outdoor living area which overlooks green-space and walking paths. Master bedroom with walk-in closet and 3-piece ensuite. Two additional secondary bedrooms and full-bath complete second floor. Vinyl windows throughout. Fully-finished walk-out basement with family-room and office. Upgrades include: Hardwood floors 2017, Carpet in lower-level 2017, Kitchen 2016, Furnace 2013, Roof 2012. Offers presented Monday May 15th at 830pm.",
+  "maplocation": [45.317018, -75.921626],
 }

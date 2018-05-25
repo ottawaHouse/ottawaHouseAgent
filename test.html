@@ -70,66 +70,28 @@
       </div>
     </header>
 
-    <!-- <ul id="lightSlider">
-  <li>
-      <h3>First Slide</h3>
-      <img src="images/images1/img12.jpg"></img>
-  </li>
-  <li>
-      <h3>Second Slide</h3>
-      <img src="images/images1/img16.jpg"></img>
-  </li>
-</ul>
-    </div> -->
-
-
     <div id="best-deal">
       <div class="container">
         <div id="detailpics">
           <div class="container">
             <div class="flexslider carousel">
-              <ul class="slides">
-                <li>
-                  <img src="images/images1/img12.jpg" />
-                </li>
-                <li>
-                  <img src="images/images1/img16.jpg" />
-                </li>
-                <li>
-                  <img src="images/images1/img17.jpg" />
-                </li>
-                <li>
-                  <img src="images/images1/img18.jpg" />
-                </li>
-                <li>
-                  <img src="images/images1/img19.jpg" />
-                </li>
-                <li>
-                  <img src="images/images1/img20.jpg" />
-                </li>
-                <li>
-                  <img src="images/images1/img21.jpg" />
-                </li>
-                <li>
-                  <img src="images/images1/img22.jpg" />
-                </li>
-                <!-- items mirrored twice, total of 12 -->
+              <ul class="slides" id="titleImages">
               </ul>
             </div>
           </div>
           <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box" data-animate-effect="fadeIn">
-              <h2 id="titleAddress">old address</h2>
+              <h2 id="titleAddress"></h2>
             </div>
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box" data-animate-effect="fadeIn">
               <div class="fh5co-property">
                 <div class="fh5co-property-innter">
-                  <h3>ML#: 1057553</h3>
+                  <h3 id="ML"></h3>
                   <div class="price-status">
-                    <span class="price">$375,000 </span>
+                    <span class="price" id="price">$375,000 </span>
                   </div>
                   <h3>Directions:</h3>
-                  <p>From Queensway, North on Kanata Avenue, West onto Goldridge Drive, North onto Windcrest.</p>
+                  <p id="directions"></p>
                 </div>
                 <p class="fh5co-property-specification">
                   <span><strong>3500</strong> Sq Ft</span> <span><strong>3</strong> Beds</span> <span><strong>3.5</strong> Baths</span> <span><strong>2</strong> Garages</span>
@@ -143,33 +105,30 @@
                   <table style="width:100%">
                     <tr>
                       <th>Property Type:
-                        <p>Row Unit</p>
+                        <p id="propertyType"></p>
                       </th>
                       <th>Neighbourhood Name:
-                        <p>Kanata Lakes</p>
+                        <p id="neighbourhoodName"></p>
                       </th>
                       <th>Land Size:
-                        <p>20.21' x 112.3'</p>
+                        <p id="landSize"></p>
                       </th>
                     </tr>
                     <tr>
                       <th>Parking Type:
-                        <p>1 Garage Attached</p>
+                        <p id="parkingType"></p>
                       </th>
                       <th>Year Built:
-                        <p>1995/Approx</p>
+                        <p id="yearBuilt"></p>
                       </th>
                       <th>More Details:
-                        <p><a href="https://oreb.mlxmatrix.com/Matrix/Public/EmailReport.aspx?ID=83283606">Click Here</a>
+                        <p><a id="detailsLink" href="">Click Here</a>
                         </p>
                       </th>
                     </tr>
                     <tr>
                       <h4>Description:</h4>
-                      <p>Looking for an upgraded townhome with no rear neighbours in Kanata Lakes? Ideally situated on a quiet cul-de-sac providing easy access to the Centrum and the 417. Completely upgraded main-floor with maple hardwood floors and renovated
-                        kitchen with new cabinetry, granite countertops, glass backsplash, stainless-steel appliances, ample storage, and west-facing eat-in area. Patio doors lead to two-tiered outdoor living area which overlooks green-space and walking
-                        paths. Master bedroom with walk-in closet and 3-piece ensuite. Two additional secondary bedrooms and full-bath complete second floor. Vinyl windows throughout. Fully-finished walk-out basement with family-room and office. Upgrades
-                        include: Hardwood floors 2017, Carpet in lower-level 2017, Kitchen 2016, Furnace 2013, Roof 2012. Offers presented Monday May 15th at 830pm.</p>
+                      <p id="description"></p>
                     </tr>
                   </table>
                 </div>
@@ -270,17 +229,17 @@
         <script src="js/jquery.waypoints.min.js"></script>
         <!-- Flexslider -->
         <script src="js/jquery.flexslider-min.js"></script>
-        <!-- Google Map -->
-        <script src="js/google_map.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBC4UcrDM8F_r4LiDjlTlPDBTHphqLS6jE&callback=myMap"></script>
-
         <!-- MAIN JS -->
         <script src="js/main.js"></script>
         <script src="js/titlePic.js"></script>
 
         <!-- LOAD DATA -->
-        <script src="js/dynamicData.js" id="dynamicData"></script>
-        <!-- <script src="js/loadData.js"></script> -->
+        <script src="js/dynamicData.js"></script>
+
+        <!--ADD IMAGES -->
+        <script src="js/addImages.js"></script>
+
+
 
 
 </body>
