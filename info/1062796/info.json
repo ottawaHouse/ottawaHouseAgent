@@ -1,7 +1,16 @@
 var newJson = {
   "address": "116 THORNBURY CRESCENT, Ottawa K2G 6C2",
   "ML": "1062796",
-  "maplocation": [46.317018, -75.921626],
+  "price": "$408,000",
+  "directions": "Centrepointe Drive to Hemmingwood to Second Thornbury",
+  "propertyType": "Row Unit",
+  "neighbourhoodName": "Centrepointe",
+  "landSize": "19.92 ' x 111.45 ' ",
+  "parkingType": "1 Garage Attached",
+  "yearBuilt": "1993/Approx",
+  "detailsLink": "https://reports.oreb.mlxmatrix.com/MatrixReportOutput/ReportOutput/15800/RenderedDisplays2420.PDF",
+  "description": "Remarkable three bedroom townhouse complete with 4 bathrooms. This townhouse is sure to please with the all the space. Open living and dining room with fireplace; the kitchen and eating area are extended onto the deck which is great outdoor living space; main level complete with large ceramic tiled foyer, powder bath and access to the garage. The second level features a beautiful Master bedroom with vaulted ceiling, private balcony, walk-in closet and an en-suite with separate tub and shower. The secondary bedrooms are spacious as well. The lower level has been completed with a large family room or music studio/exercise room, a three piece bath and utility room complete this level. Shingles 15; A/C '16; balcony '16",
+  "maplocation": [45.347138, -75.769445],
 
 
 }

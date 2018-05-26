@@ -31,7 +31,7 @@ window.myMap = function() {
     })(marker, i));
 
     marker.addListener('click', function() {
-      window.location.href = "propertyDetails.html";
+      window.location.href = "propertyDetails-cn.html";
     });
   }
 }
